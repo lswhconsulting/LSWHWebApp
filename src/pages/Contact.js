@@ -44,7 +44,7 @@ const [showAlert, setShowAlert] = useState(false);
   const facebookLink = `https://www.facebook.com/sharer/sharer.php?u=${shareUrl}`;
 
   return (
-    <div className="container">
+    <div className="container" style={{maxWidth:"1200px"}}>
       <div className="contact-wrapper">
       <div className="contact-container">
         <h2>Contact Us</h2>
